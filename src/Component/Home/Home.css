@@ -1,0 +1,150 @@
+.header-1{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+}
+
+@media(max-width:746px){
+
+    .header-1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        }   
+}
+.header-text{
+    text-align: start;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.header-box{
+    padding:70px 0;
+    
+}
+.header-button{
+    float: left;
+    border: none;
+    color: white;
+    background-color: rgb(67, 67, 233);
+    font-size: 12px;
+    padding: 5px;
+    width: 120px;
+   
+}
+
+.footer-button{
+    border: none;
+    color: white;
+    background-color: rgb(62, 62, 218);
+    font-size: 13px;
+    padding: 10px;
+    width: 135px;
+}
+.margin{
+    width:80%;
+    margin: auto;
+}
+.header-brand-name{
+    font-size: 20px;
+}
+
+.header-brand-promotion{
+    font-size: 30px;
+    color: rgb(3, 3, 77);
+}
+.header{
+    background-color: rgb(241, 236, 236);
+}
+
+.logo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 70px 0px;
+}
+@media(max-width:746px){
+
+    .logo{
+        
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
+.logo-section{
+    background-color: rgb(250, 246, 246);
+   
+}
+.trusted{
+   padding: 50px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 600;
+    color: blue;
+}
+.logo-button{
+    border: none;
+    background-color: rgb(229, 226, 226);
+    color: gray;
+    padding: 20px;
+    margin-right: 10px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 70px 0;
+}
+.star{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.review-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.footer{
+    background: rgb(39, 39, 39);
+}
+
+.about-box-svg{
+    background-color: rgb(236, 235, 235);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.about-box{
+    margin-left: 20px;
+}
+.about-text{
+    font-weight: 700;
+}
+
+.review-text{
+    font-size: 28px;
+    color: rgb(199, 195, 195);
+   font-style: italic;
+   padding: 20px 0;
+}
+
+.review{
+    background-color: rgb(248, 244, 244);
+}
+
+.footer-text{
+    font-size: 28px;
+    color: white;
+    font-weight: 700;
+}
+
+.copyright{
+    padding: 50px 0px;
+}
+
+.Special{
+    color: rgb(66, 66, 179);
+    font-size: 13px;
+    font-weight: 600;
+    padding: 30px 0px;
+}
